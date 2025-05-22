@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: none;
+    color: #fff;
+}
+
+/* Navbar */
+nav {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.4);
+    /* semi-transparent background */
+    color: #fff;
+}
+
+nav h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #d1d0d0;
+}
+
+nav ul li a:active {
+    color: #807e7e;
+}
+
+/* Hero Section */
+#Home {
+    height: 100vh;
+    background-image: url('assets/claudio-schwarz-FM2pBP5_REA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.homeh4 {
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.homep {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn1 {
+    border: none;
+    color: black;
+    padding: 14px 20px;
+    border-radius: 9px;
+    background-color: #c9c2b5;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn1:hover {
+    color: #75716b;
+    background-color: #d8d5d0;
+}
+
+.btn1:active {
+    color: black;
+    background-color: #c9c2b5;
+}
+
+/* About Section */
+#About {
+    background-image: url(assets/photo-1605667170199-8fab72fb871b.jpg);
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    height: 97vh;
+    width: 100%;
+    color: white;
+
+
+}
+
+
+.about-name {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 3;
+}
+
+.about-main {
+       display: flex
+;
+    justify-content: center;
+    font-size: 26px;
+    margin-left: 10rem;
+    /* line-height: 1;*/
+}
+
+#flights {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flight-card {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px;
+  transition: transform 0.3s ease;
+}
+
+.flight-card:hover {
+  transform: translateY(-5px);
+}
+
+.flight-img {
+    
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.flight-info {
+  padding: 15px;
+  color: #333;
+}
+
+.flight-info h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #222;
+}
+
+.flight-info p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.price-book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1c75bc;
+}
+
+.book-btn {
+  padding: 8px 16px;
+  background-color: #1c75bc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #145a8c;
+}
